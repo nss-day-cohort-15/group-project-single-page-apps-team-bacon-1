@@ -14,12 +14,12 @@ var baconMaster = (function () {
     }
  }())
 
-function showPhrases (phraseBacon) { console.log(phraseBacon)
+function showPhrases (phraseBacon) { //console.log(phraseBacon)
 
   var list = document.querySelector(".dump")
   var output = "";
   for (var i = 0; i < phraseBacon.length; i++) {
-    var currentBacon = phraseBacon[i];console.log(currentBacon.thing)
+    var currentBacon = phraseBacon[i];//console.log(currentBacon.thing)
     list.innerHTML += `<li>${currentBacon.thing}</li>`
   }
 }
@@ -34,18 +34,11 @@ baconMaster.loadPhrases(showPhrases);
 
 
 
-/*var enterKey = document.getElementById("text_input");
-var messageField = document.getElementById("message_box");
+//var enterKey = document.getElementById("text_input");
+//var messageField = document.getElementById("message_box");
 //clearButton = document.getElementById();
 
-
-
-
-
-
-
-enterKey.addEventListener("keyup", function (event) {
-  event.preventDefault();
+/*enterKey.addEventListener("keyup", function (event) {
   if (event.keyCode === 13) {
     console.log(messageField.innerHTML);
   }
