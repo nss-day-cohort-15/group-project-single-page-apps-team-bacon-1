@@ -1,0 +1,51 @@
+.dark_theme {
+  background-color: limegreen;
+  color: azure;
+}
+
+body {
+  padding: 5px;
+}
+
+
+.large_text {
+  font-size: 1.25em;
+}
+#message_box{
+  border: 2px solid black;
+  margin-left: 100px;
+  height: 500px;
+  width: 80%;
+}
+#text_input {
+
+  margin-left: 100px;
+  margin-bottom: 10px;
+  width: 60%;
+}
+
+#dark_theme {
+  background-color: azure;
+  margin-left: 120px;
+}
+
+#large_text {
+    margin-left: 30px;
+}
+
+.logo {
+  color: purple;
+  font-size: 1.8em;
+  margin-bottom: -23px;
+  margin-left: 20px;
+}
+
+.theme {
+  background-color: azure;
+}
+
+
+.messages_logo {
+  margin-left: 30px;
+}
+
