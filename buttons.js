@@ -49,7 +49,8 @@ clearAll.addEventListener("click", function() {
     clear_message.setAttribute("disabled", true);
 });
 
-var allThings = document.getElementById("message_container");
+    var allThings = document.getElementById("message_container");
+;
 
 // var messBoxBorder = document.getElementById("messageBox");  //doesn't work
 
@@ -62,11 +63,5 @@ var allThings = document.getElementById("message_container");
        allThings.classList.toggle("large_text");
        });
 
-
-   /*//         newElem.innerHTML = message + "<button class='delete'>Delete</button>";
-   //         newElem.setAttribute("id", "entry");
-   //         msgBox.appendChild(newElem);
-// msgBox.appendChild(newElem);
-        }*/
 
 

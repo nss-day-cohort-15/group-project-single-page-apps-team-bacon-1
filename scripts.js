@@ -25,21 +25,3 @@ function showPhrases (phraseBacon) { //console.log(phraseBacon)
 }
 
 baconMaster.loadPhrases(showPhrases);
-
-
-
-
-
-
-
-
-
-//var enterKey = document.getElementById("text_input");
-//var messageField = document.getElementById("message_box");
-//clearButton = document.getElementById();
-
-/*enterKey.addEventListener("keyup", function (event) {
-  if (event.keyCode === 13) {
-    console.log(messageField.innerHTML);
-  }
-})*/
